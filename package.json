@@ -1,5 +1,5 @@
 {
-  "name": "@trip/ares-util",
+  "name": "@tripcloud/ares-util",
   "version": "1.0.0",
   "description": "Utilities depended by ARES SDKs",
   "main": "index.js",
