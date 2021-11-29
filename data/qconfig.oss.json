@@ -1,0 +1,19 @@
+{
+    "conn": {
+        "ci": "ares.backstage.oy"
+    },
+	"proxy": {
+        "prod": "PROXY2",
+        "qate": "NTPROXY"
+    },
+	"domains": [
+		"static.tripcdn.com",
+		"static.uat.qa.nt.ctripcorp.com",
+		"static.fws.qa.nt.ctripcorp.com"
+    ],
+	"cache": {
+		"permanent": false,
+		"instant": false,
+		"instantMaxage": 30000
+	}
+}

@@ -1,0 +1,32 @@
+[
+	{ "hostname": "static.tripcdn.com"             , "site": "ARES.I18N", "env": "PROD" , "isMain": true },
+	{ "hostname": "static.tripcdn.cn"              , "site": "ARES.I18N", "env": "PROD" },
+	{ "hostname": "ak-s.tripcdn.com"               , "site": "ARES.I18N", "env": "PROD" },
+	{ "hostname": "aw-s.tripcdn.com"               , "site": "ARES.I18N", "env": "PROD" },
+	{ "hostname": "bd-s.tripcdn.cn"                , "site": "ARES.I18N", "env": "PROD" },
+	{ "hostname": "dl-s.tripcdn.cn"                , "site": "ARES.I18N", "env": "PROD" },
+	{ "hostname": "ws-s.tripcdn.cn"                , "site": "ARES.I18N", "env": "PROD" },
+	{ "hostname": "static.uat.qa.nt.ctripcorp.com" , "site": "ARES.I18N", "env": "UAT"  , "isMain": true , "primary": "static.tripcdn.com" },
+	{ "hostname": "static.fws.qa.nt.ctripcorp.com" , "site": "ARES.I18N", "env": "FAT"  , "isMain": true , "primary": "static.tripcdn.com" },	
+
+	{ "hostname": "webresource.c-ctrip.com"             , "site": "ARES.WEBRESOURCE", "env": "PROD" , "isMain": true },
+	{ "hostname": "webresource.uat.qa.nt.ctripcorp.com" , "site": "ARES.WEBRESOURCE", "env": "UAT"  , "isMain": true , "primary": "webresource.c-ctrip.com" },
+	{ "hostname": "webresource.fws.qa.nt.ctripcorp.com" , "site": "ARES.WEBRESOURCE", "env": "FAT"  , "isMain": true , "primary": "webresource.c-ctrip.com" },
+	{ "hostname": "pic.c-ctrip.com"                     , "site": "ARES.WEBRESOURCE", "env": "PROD" },
+	{ "hostname": "pic.uat.qa.nt.ctripcorp.com"         , "site": "ARES.WEBRESOURCE", "env": "UAT"  , "primary": "pic.c-ctrip.com" },
+	{ "hostname": "pic.fws.qa.nt.ctripcorp.com"         , "site": "ARES.WEBRESOURCE", "env": "FAT"  , "primary": "pic.c-ctrip.com" },
+			
+	{ "hostname": "webresource.english.c-ctrip.com"             , "site": "ARES.WEBRESOURCE.ENGLISH", "env": "PROD", "isMain": true  },
+	{ "hostname": "webresource.english.uat.qa.nt.ctripcorp.com" , "site": "ARES.WEBRESOURCE.ENGLISH", "env": "UAT" , "isMain": true  , "primary": "webresource.english.c-ctrip.com" },
+	{ "hostname": "webresource.english.fws.qa.nt.ctripcorp.com" , "site": "ARES.WEBRESOURCE.ENGLISH", "env": "FAT" , "isMain": true  , "primary": "webresource.english.c-ctrip.com"},
+	{ "hostname": "pic.english.c-ctrip.com"                     , "site": "ARES.WEBRESOURCE.ENGLISH", "env": "PROD" },
+	{ "hostname": "pic.english.uat.qa.nt.ctripcorp.com"         , "site": "ARES.WEBRESOURCE.ENGLISH", "env": "UAT"  , "primary": "pic.english.c-ctrip.com" },
+	{ "hostname": "pic.english.fws.qa.nt.ctripcorp.com"         , "site": "ARES.WEBRESOURCE.ENGLISH", "env": "FAT"  , "primary": "pic.english.c-ctrip.com" },
+
+	{ "hostname": "webresint.sh.ctriptravel.com"       , "site": "ARES.WEBRESINT", "env": "PROD" , "isMain": true },
+	{ "hostname": "webresint.uat.qa.nt.ctripcorp.com"  , "site": "ARES.WEBRESINT", "env": "UAT"  , "isMain": true , "primary": "webresint.sh.ctriptravel.com" },
+	{ "hostname": "webresint.fws.qa.nt.ctripcorp.com"  , "site": "ARES.WEBRESINT", "env": "FAT"  , "isMain": true , "primary": "webresint.sh.ctriptravel.com" },
+	{ "hostname": "picint.sh.ctriptravel.com"          , "site": "ARES.WEBRESINT", "env": "PROD" },
+	{ "hostname": "picint.uat.qa.nt.ctripcorp.com"     , "site": "ARES.WEBRESINT", "env": "UAT"  , "primary": "picint.sh.ctriptravel.com" },
+	{ "hostname": "picint.fws.qa.nt.ctripcorp.com"     , "site": "ARES.WEBRESINT", "env": "FAT"  , "primary": "picint.sh.ctriptravel.com" }
+]
